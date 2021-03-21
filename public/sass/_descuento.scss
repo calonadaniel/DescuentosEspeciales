@@ -1,0 +1,50 @@
+/*Modal agregar expediente*/
+#Modal-add .modal-header {
+    background: $color1-farmacity;
+    color: $color2-farmacity;
+  }
+  #Modal-add .modal-footer {
+    .btn-guardar{
+      background: $color3-farmacity;
+      color: $color2-farmacity;
+    }
+  
+  }
+  
+  /*Modal ver expediente*/
+//   #Modal-show .modal-header {
+//     background: $color1-farmacity;
+//     color: $color2-farmacity;
+//   }
+//   #Modal-show .modal-footer {
+//     .btn-guardar{
+//       background: $color1-farmacity;
+//       color: $color2-farmacity;
+//     }
+  
+//   }
+  
+  /*Modal editar expediente*/
+  #Modal-edit .modal-header {
+    background: $color4-farmacity;
+    color: $color2-farmacity;
+  }
+  #Modal-edit .modal-footer {
+    .btn-guardar{
+      background: $color4-farmacity;
+      color: $color2-farmacity;
+    }
+  
+  }
+  /*Modal borrar expediente*/
+  #Modal-delete .modal-header {
+    background: $color5-farmacity;
+    color: $color2-farmacity;
+  }
+  #Modal-delete .modal-footer {
+    .btn-borrar{
+      background: $color5-farmacity;
+      color: $color2-farmacity;
+    }
+  }
+  

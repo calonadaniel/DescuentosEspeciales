@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{ 
+    font-family: 'Poppins';
+    font-size:14px;
+    //line-height: 1.8em;
+    color: #000000;
+}
+
+html, body {
+    height:100%;
+}
+
+
+// Definir el color de tema de la palicacion por medio de variables. Cambiar los colores en el archivo variables.scss
+thead, nav, .card-header, .navbar-nav .dropdown-menu .dropdown-item  {
+    background:$color1-farmacity;
+    color:$color2-farmacity;
+}
+
+.navbar-nav .dropdown-menu  {
+  background:$color1-farmacity;
+  color:$color2-farmacity;
+}
+
+
+// .btn {
+//     background:$color1-farmacity;
+//     color:$color2-farmacity;
+// }
+
+h2 {
+    color:$color1-farmacity;
+    
+}
+
+.card-title{
+    
+    color:$color1-farmacity;
+    text-decoration: underline;
+}
+
+.active-search input.active-line[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid $color1-farmacity;
+    box-shadow: 0 1px 0 0 $color1-farmacity;
+  }
+  
+
+.fa-edit:before {
+    color:$color4-farmacity;
+}
+
+.fa-trash-alt:before {
+    color: $color5-farmacity;
+}
+
+.fa-plus:before {
+    color: $color1-farmacity;
+}
+
+.box
+{
+ width:100%;
+ max-width:600px;
+ background-color:#f9f9f9;
+ border:1px solid #ccc;
+ border-radius:5px;
+ padding:16px;
+ margin:0 auto;
+}
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+.parsley-type, .parsley-required, .parsley-equalto{
+ color:#ff0000;
+}
+/*.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+  background-color: red !important;
+  float:right;
+}
+.section-search i {
+  display: block;
+}
+
+.section-search input.autocomplete {
+  color: #000;
+}
+.input-field .prefix.active {
+  color: #000!important;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+  color:black!important;
+  position: relative;
+  height: 200px !important;
+}
+.autocomplete-content li .highlight {
+  color: red!important;
+
+}*/
+
+/*.autocomplete-content {
+
+  position: absolute;
+
+  background: #383838;
+
+  margin-top: -.9rem;
+
+}*/
+
+.autocomplete-content li {
+
+  //clear: both;
+
+  //color: rgba(0, 0, 0, 0.87);
+
+  //cursor: pointer;
+
+  //line-height: 0;
+
+  //width: 100%;
+
+
+  //text-align: left;
+
+  //text-transform: none;
+
+  //padding: 10px;
+
+}
+
+.autocomplete-content li > span {
+
+  //color: red;
+  //padding: 1.2rem;
+  //height: 200px!important;
+
+}
+
+.autocomplete-content li > span .highlight {
+
+  color: red;
+  //height: 200px!important;
+
+}
+
+
+
+/*.autocomplete-content li:hover {
+
+  background: #eee;
+
+  cursor: pointer;
+
+}
+
+.autocomplete-content > li:hover {
+
+  background: #292929;
+
+}*/
+
